@@ -1,0 +1,381 @@
+body
+{
+    font-size: 12px;
+
+    width: 1000px;
+    height: 1205px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background-image: url('../img/home_bg.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.all
+{
+    width: 1000px;
+    height: auto;
+    height: 1205px;
+    margin: 0 auto;
+
+    background-color: white;
+}
+
+.header
+{
+    width: 1000px;
+    height: 120px;
+}
+.head-img
+{
+    width: 1000px;
+    height: 120px;
+}
+
+.all .nav
+{
+    width: 1000px;
+    height: 40px;
+}
+.all .nav .nav-ul
+{
+    margin: 0;
+
+    list-style: none;
+
+    -webkit-padding-start: 0;
+}
+.all .nav .nav-ul li
+{
+    float: left;
+
+    width: 178px;
+    height: 40px;
+    margin: 0;
+
+    background: url('../img/menu_bg.jpg');
+}
+.all .nav .nav-ul li a
+{
+    font-weight: 700;
+    line-height: 40px;
+
+    display: block;
+
+    text-decoration: none;
+
+    color: white;
+}
+.all .nav .nav-ul li:hover
+{
+    background: url('../img/nav_hover.gif');
+}
+.all .nav .nav-ul .pull-down
+{
+    position: relative;
+    z-index: -1;
+
+    list-style: none;
+}
+.all .nav .nav-ul .pull-down li
+{
+    line-height: 40px;
+}
+.all .nav span
+{
+    line-height: 40px;
+
+    display: block;
+    float: left;
+
+    width: 110px;
+    height: 40px;
+
+    color: white;
+    background: url('../img/menu_bg.jpg');
+}
+.all .content
+{
+    float: left;
+
+    width: 748px;
+    height: 1000px;
+}
+
+
+/*左侧导航*/
+.all .left-nav
+{
+    float: left;
+
+    width: 270px;
+
+    text-align: center;
+}
+.all .left-nav .chaining-div .search
+{
+    margin: 16px auto 0;
+}
+.all .left-nav .chaining-div .search input
+{
+    width: 150px;
+}
+.all .left-nav .right-img
+{
+    display: block;
+
+    margin: 8px auto 0;
+}
+.all .left-nav .right-img:hover
+{
+    outline: 1px dashed #f99;
+}
+
+.all .left-nav .chaining-img img
+{
+    width: 250px;
+    margin-top: 8px;
+}
+.all .left-nav .chaining-img img:hover
+{
+    outline: 1px dashed #f99;
+}
+
+.all .left-nav .apply-btn img
+{
+    margin-top: 16px;
+}
+.all .left-nav .compete-register img
+{
+    margin-top: 2px;
+}
+
+/*右侧正文*/
+.all .center
+{
+    float: right;
+
+    width: 726px;
+}
+.all .center .navigation
+{
+    margin: 8px 4px;
+    padding: 4px;
+
+    background-color: #ecf4ff;
+}
+
+.all .center .navigation a
+{
+    text-decoration: none;
+
+    color: #7da7d9;
+}
+
+
+.all .center .navigation .scale-nav span
+{
+    display: block;
+    float: left;
+
+    margin: 8px 2px 4px 6px;
+}
+
+.all .center .navigation .scale-nav .scale-nav-ul
+{
+    display: block;
+    float: left;
+
+    margin: 8px 0 4px 2px;
+}
+.all .center .navigation .scale-nav .scale-nav-ul li
+{
+    display: block;
+    float: left;
+
+    margin: 0 16px 0 2px;
+
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+
+.all .center .navigation .scale-nav .scale-nav-page-ul
+{
+    display: block;
+    float: right;
+
+    margin: 8px 0 4px 2px;
+}
+.all .center .navigation .scale-nav .scale-nav-page-ul li
+{
+    float: right;
+
+    margin: 0 2px 0 16px;
+}
+.all .center .navigation a:hover
+{
+    text-decoration: underline;
+
+    color: red;
+}
+.all .center .navigation .browse
+{
+    margin: 4px 0 8px 4px;
+
+    text-align: left;
+}
+.all .center .navigation .browse span
+{
+    line-height: 20px;
+
+    margin: 0 2px 0 2px;
+}
+.all .center .navigation ul li
+{
+    float: left;
+}
+/*正文*/
+.all .center .content
+{
+    position: relative;
+
+    width: 726px;
+}
+.all .center .content blockquote
+{
+    font-size: 14px;
+
+    margin: 10px 0;
+
+    text-align: left;
+    text-indent: 2em;
+}
+.all .center .content h4
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    text-align: left;
+}
+
+
+.all .center .content .show-day
+{
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 66px;
+
+    position: absolute;
+    top: 4px;
+    left: 4px;
+
+    width: 44px;
+    height: 55px;
+
+    color: #4d4d4d;
+    background-image: url('../img/day.png');
+}
+.all .center .content .content-footer
+{
+    font-size: 14px;
+
+    text-align: right;
+}
+.all .center .content .four-btn a:hover
+{
+    outline: 1px dashed #f99;
+}
+
+
+
+
+
+
+
+/*底部*/
+.footer
+{
+    font-size: 14px;
+
+    position: relative;
+
+    width: 1000px;
+    height: 80px;
+
+    background: url('../img/footer_bg.png');
+}
+.footer .hdu-logo
+{
+    position: absolute;
+    top: 50%;
+    left: 60px;
+
+    display: inline-block;
+
+    transform: translateY(-50%);
+}
+.footer .footer-content
+{
+    position: absolute;
+    left: 140px;
+
+    display: inline-block;
+
+    width: 800px;
+    height: 80px;
+
+    text-align: center;
+}
+.footer .footer-content .footer-ul
+{
+    width: 800px;
+    margin-top: 10px;
+    padding: 0;
+
+    list-style: none;
+}
+.footer .footer-content .footer-ul li
+{
+    display: inline-block;
+
+    width: 65px;
+    padding: 0 0 0 10px;
+}
+.footer .footer-content .footer-ul li a
+{
+    text-decoration: none;
+
+    color: #314f97;
+}
+
+.footer .footer-content .footer-ul li + li
+{
+    border-left: 1px solid black;
+}
+.footer .footer-content .footer-address
+{
+    margin: -6px 0 6px;
+
+    text-align: center;
+}
+.footer .footer-content .footer-address span
+{
+    display: inline-block;
+
+    margin-top: 14px;
+}
